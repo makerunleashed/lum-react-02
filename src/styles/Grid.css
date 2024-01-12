@@ -1,0 +1,26 @@
+/* GridLayout.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 16px; /* Gap between grid items */
+    max-width: auto; /* Set a maximum width for the grid */
+    margin: 0 auto; /* Center the grid horizontally */
+  }
+  
+  .grid-item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .grid-edge {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0px;
+    max-width: 10px; /* Set a maximum width for the grid */
+  }
